@@ -20,7 +20,7 @@
 			 text="Orangeberg Datacenter Dashboard"/>
 	<s:Group>
 	</s:Group>
-	<mx:DataGrid id="odcHostGrid" dataProvider="{servers}" width="236" height="152">
+	<mx:DataGrid id="odcHostGrid" dataProvider="{servers}" width="247" height="152">
 		<mx:columns>
 			<mx:DataGridColumn width="50" dataField="role" headerText="ROLE" textAlign="center"/>
 			<mx:DataGridColumn dataField="hostname" headerText="HOSTNAME" width="175"/>
