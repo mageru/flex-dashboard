@@ -9,7 +9,7 @@
 	</s:layout>
 	<fx:Script>
 		<![CDATA[
-			import utilities.FormatUtilities;
+			import mx.collections.ArrayCollection;
 		]]>
 	</fx:Script>
 	<fx:Declarations>
