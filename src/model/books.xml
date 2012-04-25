@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<book>
+<title_id>BU1032</title_id>
+<title>How to Code</title>
+<pub_id>1528</pub_id>
+<au_id>409-56-7008</au_id>
+<price>19.99</price>
+<notes>A beginner's guide to creating amazing software that works.</notes>
+<pubdate>1999-06-12T00:00:00</pubdate>
+</book>
+<book>
+<title_id>BU1111</title_id>
+<title>Cooking with Computers: Surreptitious Balance Sheets</title>
+<pub_id>1389</pub_id>
+<au_id>724-80-9391</au_id>
+<price>11.95</price>
+<notes>Helpful hints on how to use your electronic resources to the best advantage.</notes>
+<pubdate>2000-06-09T00:00:00</pubdate>
+</book>
+<book>
+<title_id>BU2075</title_id>
+<title>You Can Combat Computer Stress!</title>
+<pub_id>0736</pub_id>
+<au_id>213-46-8915</au_id>
+<price>2.99</price>
+<notes>The latest medical and psychological techniques for living with the electronic office. Easy-to-understand explanations.</notes>
+<pubdate>2003-01-05T00:00:00</pubdate>
+</book>
+<book>
+<title_id>BU7832</title_id>
+<title>Straight Talk About Computers</title>
+<pub_id>1389</pub_id>
+<au_id>238-95-7766</au_id>
+<price>19.99</price>
+<notes>Annotated analysis of what computers can do for you: a no-hype guide for the critical user.</notes>
+<pubdate>2002-06-22T00:00:00</pubdate>
+</book>
+<book>
+<title_id>MC2222</title_id>
+<title>Silicon Valley Gastronomic Treats</title>
+<pub_id>0877</pub_id>
+<au_id>712-45-1867</au_id>
+<price>19.99</price>
+<notes>Favorite recipes for quick, easy, and elegant meals.</notes>
+<pubdate>2003-01-09T00:00:00</pubdate>
+</book>
+<book>
+<title_id>MC3021</title_id>
+<title>The Gourmet Microwave</title>
+<pub_id>0877</pub_id>
+<au_id>899-46-2035</au_id>
+<price>2.99</price>
+<notes>Traditional French gourmet recipes adapted for modern microwave cooking.</notes>
+<pubdate>1997-06-18T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PC1035</title_id>
+<title>But Is It User Friendly?</title>
+<pub_id>1389</pub_id>
+<au_id>238-95-7766</au_id>
+<price>22.95</price>
+<notes><![CDATA[A survey of software for the naive user, focusing on the 'friendliness' of each.]]></notes>
+<pubdate>1998-06-30T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PC8888</title_id>
+<title>Secrets of Silicon Valley</title>
+<pub_id>1389</pub_id>
+<au_id>846-92-7186</au_id>
+<price>20</price>
+<notes><![CDATA[Muckraking reporting on the world's largest computer hardware and software manufacturers.]]></notes>
+<pubdate>2003-01-12T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PC9999</title_id>
+<title>Net Etiquette</title>
+<pub_id>1389</pub_id>
+<au_id>486-29-1786</au_id>
+<price>19.95</price>
+<notes>A must-read for computer conferencing.</notes>
+<pubdate>2000-08-06T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PS1372</title_id>
+<title>Computer Phobic AND Non-Phobic Individuals: Behavior Variations</title>
+<pub_id>0877</pub_id>
+<au_id>756-30-7391</au_id>
+<price>21.59</price>
+<notes><![CDATA[A must for the specialist, this book examines the difference between those who hate and fear computers and those who don't.]]></notes>
+<pubdate>2003-01-01T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PS2091</title_id>
+<title>Is Anger the Enemy?</title>
+<pub_id>0736</pub_id>
+<au_id>998-72-3567</au_id>
+<price>10.95</price>
+<notes>Carefully researched study of the effects of strong emotions on the body. Metabolic charts included.</notes>
+<pubdate>2002-06-15T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PS2106</title_id>
+<title>Life Without Fear</title>
+<pub_id>9952</pub_id>
+<au_id>998-72-3567</au_id>
+<price>7</price>
+<notes>New exercise, meditation, and nutritional techniques that can reduce the shock of daily interactions. Popular audience. Sample menus included, exercise video available separately.</notes>
+<pubdate>2002-10-05T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PS3333</title_id>
+<title>Prolonged Data Deprivation: Four Case Studies</title>
+<pub_id>9952</pub_id>
+<au_id>172-32-1176</au_id>
+<price>19.99</price>
+<notes>What happens when the data runs dry?  Searching evaluations of information-shortage effects.</notes>
+<pubdate>2001-06-12T00:00:00</pubdate>
+</book>
+<book>
+<title_id>PS7777</title_id>
+<title>Emotional Security: A New Algorithm</title>
+<pub_id>0736</pub_id>
+<au_id>486-29-1786</au_id>
+<price>7.99</price>
+<notes>Protecting yourself and your loved ones from undue emotional stress in the modern world. Use of computer and nutritional aids emphasized.</notes>
+<pubdate>1998-06-12T00:00:00</pubdate>
+</book>
+<book>
+<title_id>TC3218</title_id>
+<title>Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean</title>
+<pub_id>0877</pub_id>
+<au_id>807-91-6654</au_id>
+<price>20.95</price>
+<notes>Profusely illustrated in color, this makes a wonderful gift book for a cuisine-oriented friend.</notes>
+<pubdate>1997-10-21T00:00:00</pubdate>
+</book>
+<book>
+<title_id>TC4203</title_id>
+<title>Fifty Years in Buckingham Palace Kitchens</title>
+<pub_id>0877</pub_id>
+<au_id>648-92-1872</au_id>
+<price>11.95</price>
+<notes><![CDATA[More anecdotes from the Queen's favorite cook describing life among English royalty. Recipes, techniques, tender vignettes.]]></notes>
+<pubdate>1998-06-12T00:00:00</pubdate>
+</book>
+<book>
+<title_id>TC7777</title_id>
+<title>Sushi, Anyone?</title>
+<pub_id>0877</pub_id>
+<au_id>672-71-3249</au_id>
+<price>14.99</price>
+<notes>Detailed instructions on how to make authentic Japanese sushi in your spare time.</notes>
+<pubdate>1999-06-12T00:00:00</pubdate>
+</book>
+</data>

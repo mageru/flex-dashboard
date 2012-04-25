@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:views="*"			   
+			   minWidth="955" minHeight="600">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<mx:ViewStack id="viewstack1" x="10" y="43" width="785" height="438">
+		<views:Summary label="Summary" width="100%" height="100%">			
+		</views:Summary>	
+		<views:TDC label="TDC" width="100%" height="100%">			
+		</views:TDC>
+		<views:SDC label="SDC" width="100%" height="100%">			
+		</views:SDC>
+		<views:ODC label="ODC" width="100%" height="100%">			
+		</views:ODC>
+	</mx:ViewStack>
+	<s:ButtonBar x="6" y="10" dataProvider="{viewstack1}"/>
+</s:Application>

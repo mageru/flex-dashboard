@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:NavigatorContent xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					xmlns:s="library://ns.adobe.com/flex/spark" 
+					xmlns:mx="library://ns.adobe.com/flex/mx" 
+					width="400" height="300">
+	<s:layout>
+		<s:VerticalLayout horizontalAlign="left" 
+						  paddingTop="10" paddingBottom="10" 
+						  paddingRight="10" paddingLeft="10"/>
+	</s:layout>
+	<fx:Script>
+		<![CDATA[
+			import utilities.FormatUtilities;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<fx:Model id="bookModel" source="model/books.xml"/>
+		<mx:ArrayCollection id="acBooks" source="{bookModel.book}"/>
+		<mx:CurrencyFormatter id="cf"/>
+	</fx:Declarations>
+	<s:Group>
+		<s:Label text="Book List" styleName="logo"/>
+	</s:Group>
+	<mx:DataGrid id="booksGrid" dataProvider="{acBooks}" width="100%" height="100%">
+		<mx:columns>
+			<mx:DataGridColumn dataField="title" headerText="Title" width="300"/>
+			<mx:DataGridColumn dataField="price" headerText="Price" labelFunction="FormatUtilities.currencyFormat"
+							   textAlign="right"/>
+		</mx:columns>
+	</mx:DataGrid>
+</s:NavigatorContent>

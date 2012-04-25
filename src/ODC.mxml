@@ -1,0 +1,30 @@
+<s:NavigatorContent xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					xmlns:s="library://ns.adobe.com/flex/spark" 
+					xmlns:mx="library://ns.adobe.com/flex/mx" 
+					width="706" height="518">
+	<s:layout>
+		<s:VerticalLayout horizontalAlign="left" 
+						  paddingTop="10" paddingBottom="10" 
+						  paddingRight="10" paddingLeft="10"/>
+	</s:layout>
+	<fx:Script>
+		<![CDATA[
+			import utilities.FormatUtilities;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<fx:Model id="serverModel" source="model/odc_servers.xml"/>
+		<mx:ArrayCollection id="servers" source="{serverModel.server}"/>
+	</fx:Declarations>
+	<s:Label width="459" height="30" fontSize="30" paddingLeft="0" paddingTop="0"
+			 text="Orangeberg Datacenter Dashboard"/>
+	<s:Group>
+	</s:Group>
+	<mx:DataGrid id="odcHostGrid" dataProvider="{servers}" width="236" height="152">
+		<mx:columns>
+			<mx:DataGridColumn width="50" dataField="role" headerText="ROLE" textAlign="center"/>
+			<mx:DataGridColumn dataField="hostname" headerText="HOSTNAME" width="175"/>
+		</mx:columns>
+	</mx:DataGrid>
+</s:NavigatorContent>
+

@@ -1,0 +1,59 @@
+
+<model xmlns="http://ns.adobe.com/Fiber/1.0">
+  <annotation name="ActionScriptGeneration">
+    <item name="FullyQualifyReferences">true</item>
+  </annotation>
+  <service name="Graphstats">
+    <annotation name="ActionScriptGeneration">
+      <item name="ServiceType">HTTPMultiService</item>
+      <item name="Package">services.graphstats</item>
+    </annotation>
+    <annotation name="ServiceTypeGroup">
+      <item name="ServiceBackendType">XML</item>
+    </annotation>
+    <annotation name="ServiceConfig">
+      <item name="DEFAULT_ENTITY_PACKAGE">valueObjects</item>
+      <item name="LINKED_FILE"></item>
+    </annotation>
+    <function name="getData" return-type="Item[]">
+      <annotation name="analyze group">
+        <item name="analyzed">true</item>
+      </annotation>
+      <annotation name="ActionScriptGeneration">
+        <item name="SerializationFilter">com.adobe.serializers.xml.XMLSerializationFilter</item>
+        <item name="method">GET</item>
+        <item name="url">data/graphstats.xml</item>
+      </annotation>
+      <annotation name="url group">
+        <item name="displayUrl">C:\Users\Justin\Adobe Flash Builder 4.6\flex-dashboard\bin\data\graphstats.xml</item>
+        <item name="completeURL">C:/Users/Justin/Adobe Flash Builder 4.6/flex-dashboard/bin/data/graphstats.xml</item>
+        <item name="isUrl">false</item>
+      </annotation>
+      <annotation name="Properties">
+        <item name="xPath">/::item</item>
+      </annotation>
+      <annotation name="original signature">
+        <item name="returnType">opaque</item>
+      </annotation>
+    </function>
+  </service>
+  <entity name="Item">
+    <annotation name="EntityProperties">
+      <item name="EntityOriginalName">Item</item>
+    </annotation>
+    <annotation name="service Group">
+      <item name="service">Graphstats,GraphstatsDummy</item>
+    </annotation>
+    <annotation name="ServerProperties">
+      <item name="IncludeRemoteClass">nonempty</item>
+    </annotation>
+    <annotation name="ActionScriptGeneration">
+      <item name="Package">valueObjects</item>
+    </annotation>
+    <property name="date" type="string" required="true"/>
+    <property name="IPD" type="string" required="true"/>
+    <property name="LTE" type="string" required="true"/>
+    <property name="MSG" type="string" required="true"/>
+    <property name="VOX" type="string" required="true"/>
+  </entity>
+</model>
